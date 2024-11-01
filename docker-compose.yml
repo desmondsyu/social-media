@@ -11,10 +11,8 @@ services:
       - ./.env:/var/www/html/.env
     networks:
       - my_network
-    environment:
-
     depends_on:
-    
+      - mysql-db
 
   mysql-db:
     image: mysql:8.0
@@ -25,7 +23,7 @@ services:
       MYSQL_USER: developer
       MYSQL_PASSWORD: developer
     networks:
-      - my_network 
+      - my_network
     volumes:
       - db_data:/var/lib/mysql
     ports:
