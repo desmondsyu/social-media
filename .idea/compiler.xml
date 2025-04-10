@@ -11,6 +11,7 @@
         <module name="msosidentity" />
         <module name="mssscredentials" />
         <module name="ms-ss-post-crud" />
+        <module name="ms-ss-post" />
         <module name="ms-ss-media-exchange" />
         <module name="ms-os-user-profile" />
         <module name="ms-ss-user-profile-crud" />
@@ -45,6 +46,7 @@
       <module name="ms-ss-comment" options="-parameters" />
       <module name="ms-ss-like" options="-parameters" />
       <module name="ms-ss-media-exchange" options="-parameters" />
+      <module name="ms-ss-post" options="-parameters" />
       <module name="ms-ss-post-crud" options="-parameters" />
       <module name="ms-ss-user-profile-crud" options="-parameters" />
       <module name="msosidentity" options="-parameters" />
